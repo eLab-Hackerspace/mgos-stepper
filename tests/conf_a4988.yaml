@@ -1,0 +1,7 @@
+[
+  ["a4988", "o", {title: "A4988 Driver Config"}],
+  ["a4988.enable", "b", false, {title: "Enable A4988 Driver"}],
+  ["a4988.enable_gpio", "i", 4, {title: "Enable gpio pin"}],
+  ["a4988.dir_gpio", "i", 13, {title: "Dir gpio pin"}],
+  ["a4988.step_gpio", "i", 15, {title: "Step gpio pin"}],
+]

@@ -1,0 +1,23 @@
+author: dav.lobato@gmail.com
+description: Stepper control library
+type: lib
+version: 1.0
+
+sources:
+  - src
+
+config_schema:
+  - ["a4988", "o", {title: "A4988 Driver Config"}]
+  - ["a4988.enable", "b", false, {title: "Enable A4988 Driver"}]
+  - ["a4988.enable_gpio", "i", 4, {title: "Enable gpio pin"}]
+  - ["a4988.dir_gpio", "i", 13, {title: "Dir gpio pin"}]
+  - ["a4988.step_gpio", "i", 15, {title: "Step gpio pin"}]
+  - ["speed_cntr", "o", {title: "Speed Controller Config"}]
+  - ["speed_cntr.acceleration", "i", 1, {title: "Acceleration in 0.01*rad/s^2"}]
+  - ["speed_cntr.deceleration", "i", 1, {title: "Deceleration in 0.01*rad/s^2"}]
+  - ["speed_cntr.max_speed", "i", 1, {title: "Max speed in 0.01*rad/s"}]
+  
+tags:
+  - c
+
+skeleton_version: 2017-05-18

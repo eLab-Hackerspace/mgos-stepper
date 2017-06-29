@@ -1,0 +1,6 @@
+[
+  ["speed_cntr", "o", {title: "Speed Controller Config"}],
+  ["speed_cntr.acceleration", "i", 1, {title: "Acceleration in 0.01*rad/s^2"}],
+  ["speed_cntr.deceleration", "i", 1, {title: "Deceleration in 0.01*rad/s^2"}],
+  ["speed_cntr.max_speed", "i", 1, {title: "Max speed in 0.01*rad/s"}],
+]
